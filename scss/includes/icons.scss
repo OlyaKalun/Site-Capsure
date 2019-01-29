@@ -1,0 +1,67 @@
+.icon {
+     width:1.5rem;
+     height: 1.5rem;
+     margin-top: 10px;
+     margin-right: 20px;
+
+      &.other{
+          
+     background-image: url(img/other.png);
+     background-size:contain;
+     background-repeat: no-repeat;
+    
+     }
+
+     &.profile{
+      
+     background-image: url(img/pers.png);
+     background-size:contain;
+     background-repeat: no-repeat;
+     }
+
+     &.notif{
+              
+     background-image: url(img/notif.png);
+     background-size:contain;
+     background-repeat: no-repeat;
+     }
+
+     &.other:hover {
+
+  border-radius: 79px;
+  background: rgba(3,30,40,.035);
+  background-image: url(img/other.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+
+
+}
+
+
+
+}
+
+.logo{
+     
+    height:2.3rem;
+    width:2.3rem;
+     }
+
+
+
+
+
+
+
+
+.bulb{
+    margin-left: 40%;
+    height:2rem;
+    width:2rem;
+    background-image: url(img/bulbash.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+     }
+
+

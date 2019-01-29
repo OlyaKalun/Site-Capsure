@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  font-family:Open Sans, Helvetica Neue, sans-serif;
+}
+html {
+  height: 100%;
+}
+body{
+  background-color: #f2f4f6 !important;
+
+  .container2 {
+   margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.boa{
+	font-size: 25px;
+	color: #333333;
+	font-family: SFProDisplay ;
+	margin-top:15px;
+	
+	padding:1%;
+	
+}
+
+.crea{
+	font-size: 20px;
+	color: Dimgrey;
+	font-family: TimesNewRoman ;
+	padding:1%;
+	margin-top:-20px;
+	
+}
+
+.ideas{
+	font-size: 22px;
+	color: #333333;
+	font-family: HelveticaNeue ;
+	margin-top:-29px;
+	margin-left: 575px;
+	
+}
+
+@media(min-width:1300px){
+.gallery{
+
+    width: 1070px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto 0 auto;
+    
+    .gallery-item{
+  		padding-left: 12.5px;
+  		padding-right: 12.5px;
+  		padding-top: 9px; 
+  		}
+}
+}
+
+@media(max-width:1299px){
+.gallery{
+
+    width: 685px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto 0 auto;
+    
+    .gallery-item{
+  		padding-left: 6.25px;
+  		padding-right: 6.25px;
+  		padding-top: 4.5px; 
+  		}
+}
+}
+
+
+
+.create{
+	font-size: 22px;
+	color: Dimgrey;
+	font-family: TimesNewRoman ;
+	padding-top: 35px;
+	width: 380px;
+
+	
+}
+
+.arrow{
+	background-image: url(img/arrow.png);
+	background-repeat: no-repeat;  
+    background-size: contain;
+    width: 190px;
+    height: 10px;
+    margin-top: 12px;
+    
+}
+
+.new_board{
+	background-image: url(img/new_board.png);
+	background-repeat: no-repeat;  
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+    margin-top: -24px;
+    margin-bottom: 10px;
+}
+
+
+}
+
+
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+a{
+  text-decoration: none;
+}
+.margin-0{
+  margin: 0 !important;
+}
+
+
+
+
+
